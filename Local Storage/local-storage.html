@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="local-storageos.js"></script>
+    <title>Kiiratas</title>
+</head>
+<body onload="urese()">
+    <p>
+        <span>Név</span>
+        <input id="nev" type="text" value="Dani">
+    </p>
+    <p>
+        <span>Település</span>
+        <input id="telep" type="text" value="Szeged">
+    </p>
+    <p>
+        <span>Írányítószám</span>
+        <input id="iranyito" type="text" value="6724">
+    </p>
+    <p>
+        <span>Közterület jellege</span>
+        <input id="kozjel" type="text" value="utca">
+    </p>
+    <p>
+        <span>Házszám</span>
+        <input id="hazszam" type="text" value="2">
+    </p>
+    <button onclick="irasd()">Küldés</button>
+    <div id="tabla"></div>
+</body>
+</html>
